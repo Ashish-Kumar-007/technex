@@ -31,11 +31,7 @@ export default function Home() {
       }
     `;
 
-    // // Create a urql client
-    // const urqlClient = createClient({
-    //   url: SUBGRAPH_URL,
-    // });
-
+  
     // Send the query to the subgraph GraphQL API, and get the response
     const response = await urqlClient.query(listingsQuery).toPromise();
     const listingEntities = response.data.listingEntities;

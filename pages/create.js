@@ -6,7 +6,7 @@ import { useSigner, erc721ABI } from "wagmi";
 import MarketplaceABI from "../abis/NFTMarketplace.json";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Create.module.css";
-import { MARKETPLACE_ADDRESS } from "../constants";
+// import { MARKETPLACE_ADDRESS } from "../constants";
 
 export default function Create() {
   // State variables to contain information about the NFT being sold
